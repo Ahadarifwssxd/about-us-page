@@ -1,0 +1,111 @@
+ul li a {
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-style: italic; */
+    text-transform: capitalize;
+
+}
+
+ul {
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    width: 1030px;
+    height: 29px;
+    margin-left: 220px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 40px;
+
+}
+
+ul li a:hover {
+    text-decoration: none;
+    justify-content: center;
+    color: #c8ab71;
+    font-size: 22px;
+}
+
+.Parent {
+    display: flex;
+    margin-left: 225px;
+    margin-bottom: 20px;
+position: absolute;
+    margin-top: 30px;
+    width: 1020px;
+    height: 400px;
+    padding: 20px;
+    font-size: medium;
+    word-spacing: 2px;
+    letter-spacing: 1.2px;
+    background-color: #c8ab71;
+    border-radius: 40px;
+
+}
+
+img {
+
+    border-radius: 40px;
+    margin-right: 12px;
+
+}
+
+li a {
+    margin-top: 10px;
+}
+
+.search {
+    float: right;
+    color: antiquewhite;
+    margin-top: 2px;
+    margin-left: 180px;
+    padding-bottom: 30px;
+
+}
+
+p {
+    float: right;
+    justify-content: center;
+    margin-left: 8px;
+    width: 1000;
+    font-family: Cambria, Cochin, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.mine {
+    margin-top: 10px;
+
+}
+
+.dying {
+    font-size: 18px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: 10px solid black;
+    /* border-radius: 10px; */
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0px 40px;
+}
+
+.dying:hover {
+    font-size: 20px;
+    color: #c8ab71;
+}
+
+.txt{
+    /* text-decoration: underline; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin-top: 10px;
+font-size: 40px;
+}
